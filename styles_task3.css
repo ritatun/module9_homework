@@ -1,0 +1,33 @@
+.messageHere {
+    visibility: hidden;
+    }
+    
+    .messageHere.active{
+    visibility: visible;
+    }
+    
+    .imageHere {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    }
+    
+    .image {
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px 5px 5px 5px;
+    }
+    
+    .title {
+    text-align: start;
+    margin-left: 10px;
+    
+    }
+    
+    .title__author {
+    margin: 0;
+    }

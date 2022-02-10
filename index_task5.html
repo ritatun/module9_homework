@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Task 5</title>
+<style>
+    body {
+        height: 100vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background: repeating-linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+        color: black;
+    }
+    input {
+        width: 200px;
+        height: 25px;
+        background-color: inherit;
+        color: rgb(29, 32, 37);
+        border-radius: 10px;
+        border: solid 1px black;
+    }
+    button {
+        width: 200px;
+        height: 25px;
+        margin: 0;
+        background-color: inherit;
+        border-radius: 10px;
+        border: solid 1px black;
+    }
+    legend {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    form {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 15px;
+    }
+    .message {
+        margin: 15px;
+    }
+    .image {
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+        .imageItem {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .imageList {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+</style>
+</head>
+<body>
+    <form>
+        <fildset>
+            <legend>Номер страницы</legend>
+            <input type="number" class="pageNum">
+        </fildset>
+        <fildset>
+            <legend>Лимит</legend>
+            <input type="number" class="limit">
+        </fildset>
+        <fildset>
+            <legend>Запрос</legend>
+            <button type="button">Click me!</button>
+            </fildset>
+    </form>
+    <div>
+        <div class="message"></div>
+        <div class="imageList"></div>
+    </div>
+<script src="script_task5.js"></script>
+</body>
+</html>
